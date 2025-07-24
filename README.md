@@ -133,11 +133,8 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ## İletişim
 
 **ANTA BİLİŞİM AŞ**
-- Web: [www.antabilisim.com.tr](http://www.antabilisim.com.tr)
-- Email: info@antabilisim.com.tr
-- Telefon: +90 216 999 99 99
-- Adres: Teknopark İstanbul, Sanayi Mah. Teknopark Bulvarı No:1/3A 34906 Pendik/İstanbul
+- Web: [www.antabilisim.com](http://www.antabilisim.com)
+- Email: info@antabilisim.com
+- Adres: Vadi İstanbul Sarıyer/İstanbul
 
 ---
-
-**Not**: Bu web sitesi demo amaçlı geliştirilmiştir. Gerçek kullanım için içerik ve görseller güncellenmelidir. antabilisim
