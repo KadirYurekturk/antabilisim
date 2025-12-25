@@ -1,248 +1,242 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANTA BİLİŞİM AŞ - Teknoloji Çözümleri</title>
-    <meta name="description" content="ANTA BİLİŞİM AŞ - Yazılım geliştirme, sistem entegrasyonu ve teknoloji danışmanlığı hizmetleri">
+    <title>Anta Bilişim | Veriyi Zekaya Dönüştürün</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <h2>ANTA BİLİŞİM AŞ</h2>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">ANTA<span>BİLİŞİM</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">Vizyon</a></li>
+                <li><a href="#solutions">Çözümler</a></li>
+                <li><a href="#methodology">Süreç</a></li>
+                <li><a href="#comparison">Farkımız</a></li>
+                <li><a href="#contact" class="btn-primary">İletişime Geç</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="badge">🚀 Bilişim Vadisi Teknoloji Üssü</div>
+                <h1>Veriyi Zekaya, <br><span class="highlight">İşinizi Geleceğe</span> Dönüştürüyoruz.</h1>
+                <p>Anta Bilişim, Lextum AI altyapısıyla desteklenen yeni nesil yapay zeka çözümleri ve stratejik
+                    teknoloji danışmanlığı ile iş süreçlerinizi optimize eder. Geleneksel yazılımın ötesinde, yaşayan
+                    sistemler inşa ediyoruz.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn-primary">Projenizi Başlatın</a>
+                    <a href="https://lextum.ai" target="_blank" class="btn-secondary"><i class="fa-solid fa-link"></i>
+                        Lextum.ai Partner</a>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#anasayfa" class="nav-link active" data-tr="Anasayfa" data-en="Home">Anasayfa</a></li>
-                    <li><a href="#icerik" class="nav-link" data-tr="İçerik" data-en="Content">İçerik</a></li>
-                    <li><a href="#urunler" class="nav-link" data-tr="Ürünlerimiz" data-en="Our Products">Ürünlerimiz</a></li>
-                    <li><a href="#hakkimizda" class="nav-link" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</a></li>
-                    <li><a href="#iletisim" class="nav-link" data-tr="İletişim" data-en="Contact">İletişim</a></li>
-                </ul>
-                <div class="language-selector">
-                    <button id="lang-tr" class="lang-btn active">TR</button>
-                    <button id="lang-en" class="lang-btn">EN</button>
-                </div>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="trust-metrics">
+                    <div class="metric">
+                        <strong>%98</strong>
+                        <span>Müşteri Memnuniyeti</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="metric">
+                        <strong>45+</strong>
+                        <span>Kurumsal Proje</span>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <div class="hero-visual">
+                <div class="abstract-card">
+                    <div class="card-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <small>System_Monitor_v2.0</small>
+                    </div>
+                    <div class="code-block">
+                        <p><span class="keyword">class</span> <span class="func">AntaCore</span> {</p>
+                        <p>&nbsp;&nbsp;<span class="var">efficiency</span>: <span class="val">"Maximum"</span>;</p>
+                        <p>&nbsp;&nbsp;<span class="var">security</span>: <span class="val">"AES-256"</span>;</p>
+                        <p>&nbsp;&nbsp;<span class="func">optimize</span>() {</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// AI driven process</span></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="val">SUCCESS</span>;
+                        </p>
+                        <p>&nbsp;&nbsp;}</p>
+                        <p>}</p>
+                    </div>
+                    <div class="floating-badge"><i class="fa-solid fa-shield-halved"></i> GDPR Uyumlu</div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="anasayfa" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title lextum-highlight" data-tr="Lextum AI ile Hukuku Dönüştürüyoruz" data-en="Transforming Law with Lextum AI">Lextum AI ile Hukuku Dönüştürüyoruz</h1>
-                <p class="hero-subtitle" data-tr="AI destekli hukuksal yazılımlarla, karar arama, dilekçe oluşturma ve sözleşme analizini kolaylaştırıyoruz." data-en="With AI-powered legal software, we simplify case search, petition generation, and contract analysis.">AI destekli hukuksal yazılımlarla, karar arama, dilekçe oluşturma ve sözleşme analizini kolaylaştırıyoruz.</p>
-                <button class="cta-button" data-tr="Lextum AI'yı Keşfedin" data-en="Discover Lextum AI">Lextum AI'yı Keşfedin</button>
-            </div>
-            <div class="hero-image">
-                <img src="images/lextumlogo.webp" alt="Lextum AI Logo" class="lextum-hero-image">
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
+    <section id="solutions" class="section bg-light">
         <div class="container">
-            <h2 class="section-title" data-tr="Uzmanlık Alanlarımız" data-en="Our Expertise">Uzmanlık Alanlarımız</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-code"></i>
-                    <h3 data-tr="Yazılım Geliştirme" data-en="Software Development">Yazılım Geliştirme</h3>
-                    <p data-tr="Özel yazılım çözümleri ve kurumsal uygulamalar geliştiriyoruz." data-en="We develop custom software solutions and enterprise applications.">Özel yazılım çözümleri ve kurumsal uygulamalar geliştiriyoruz.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-network-wired"></i>
-                    <h3 data-tr="Sistem Entegrasyonu" data-en="System Integration">Sistem Entegrasyonu</h3>
-                    <p data-tr="Mevcut sistemlerinizi modern teknolojilerle entegre ediyoruz." data-en="We integrate your existing systems with modern technologies.">Mevcut sistemlerinizi modern teknolojilerle entegre ediyoruz.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3 data-tr="Bulut Çözümleri" data-en="Cloud Solutions">Bulut Çözümleri</h3>
-                    <p data-tr="Ölçeklenebilir ve güvenli bulut altyapı çözümleri sunuyoruz." data-en="We provide scalable and secure cloud infrastructure solutions.">Ölçeklenebilir ve güvenli bulut altyapı çözümleri sunuyoruz.</p>
-                </div>
+            <div class="section-header">
+                <h2>Teknoloji Ekosistemimiz</h2>
+                <p>Sadece kod yazmıyoruz; işletmenizin dijital DNA'sını yeniden kurguluyoruz.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Content Section -->
-    <section id="icerik" class="content-section">
-        <div class="container">
-            <h2 class="section-title" data-tr="İçerik Merkezi" data-en="Content Hub">İçerik Merkezi</h2>
-            <div class="content-grid">
-                <div class="content-item">
-                    <h3 data-tr="Teknoloji Blogu" data-en="Technology Blog">Teknoloji Blogu</h3>
-                    <p data-tr="Sektördeki son gelişmeler, teknoloji trendleri ve uzman görüşlerimizi keşfedin." data-en="Discover the latest industry developments, technology trends, and our expert insights.">Sektördeki son gelişmeler, teknoloji trendleri ve uzman görüşlerimizi keşfedin.</p>
-                </div>
-                <div class="content-item">
-                    <h3 data-tr="Vaka Analizleri" data-en="Case Studies">Vaka Analizleri</h3>
-                    <p data-tr="Başarılı projelerimizden örnekler ve müşterilerimizin dönüşüm hikayeleri." data-en="Examples from our successful projects and our clients' transformation stories.">Başarılı projelerimizden örnekler ve müşterilerimizin dönüşüm hikayeleri.</p>
-                </div>
-                <div class="content-item">
-                    <h3 data-tr="Teknik Dokümantasyon" data-en="Technical Documentation">Teknik Dokümantasyon</h3>
-                    <p data-tr="Uygulama rehberleri, API dokümantasyonu ve teknik kaynaklar." data-en="Implementation guides, API documentation, and technical resources.">Uygulama rehberleri, API dokümantasyonu ve teknik kaynaklar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="urunler" class="products-section">
-        <div class="container">
-            <h2 class="section-title" data-tr="Ürün ve Hizmetlerimiz" data-en="Our Products and Services">Ürün ve Hizmetlerimiz</h2>
-            <div class="products-grid">
-                <div class="product-card lextum-card featured">
-                    <div class="product-icon"><i class="fas fa-balance-scale"></i></div>
-                    <h3 data-tr="Lextum AI" data-en="Lextum AI">Lextum AI</h3>
-                    <p data-tr="AI destekli hukuksal yazılım - karar arama, dilekçe oluşturma ve sözleşme analizi için güçlü bir platform." data-en="AI-powered legal software - a powerful platform for case search, petition generation, and contract analysis.">AI destekli hukuksal yazılım - karar arama, dilekçe oluşturma ve sözleşme analizi için güçlü bir platform.</p>
-                    <ul class="product-features">
-                        <li data-tr="AI Destekli Karar Arama" data-en="AI-Powered Case Search">AI Destekli Karar Arama</li>
-                        <li data-tr="Otomatik Dilekçe Oluşturma" data-en="Automated Petition Generation">Otomatik Dilekçe Oluşturma</li>
-                        <li data-tr="Sözleşme Analizi ve Raporlama" data-en="Contract Analysis and Reporting">Sözleşme Analizi ve Raporlama</li>
-                    </ul>
-                    <div class="product-badge" data-tr="Öne Çıkan" data-en="Featured">Öne Çıkan</div>
-                </div>
-                <div class="product-card">
-                    <div class="product-icon"><i class="fas fa-mobile-alt"></i></div>
-                    <h3 data-tr="Mobil Uygulamalar" data-en="Mobile Applications">Mobil Uygulamalar</h3>
-                    <p data-tr="Native ve cross-platform mobil uygulamalar için kapsamlı çözümler." data-en="Comprehensive solutions for native and cross-platform mobile applications.">Native ve cross-platform mobil uygulamalar için kapsamlı çözümler.</p>
-                    <ul class="product-features">
-                        <li data-tr="Native iOS/Android Uygulamalar" data-en="Native iOS/Android Apps">Native iOS/Android Uygulamalar</li>
-                        <li data-tr="React Native & Flutter" data-en="React Native & Flutter">React Native & Flutter</li>
-                        <li data-tr="Kullanıcı Deneyimi Tasarımı" data-en="UX/UI Design">Kullanıcı Deneyimi Tasarımı</li>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Yapay Zeka & RAG</h3>
+                    <p>Kurumsal verileriniz üzerinde çalışan özel LLM (Büyük Dil Modelleri) ve RAG mimarileri ile şirket
+                        içi bilgiye erişimi saniyelere düşürün.</p>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check"></i> Semantik Arama</li>
+                        <li><i class="fa-solid fa-check"></i> Otomatik Doküman Analizi</li>
                     </ul>
                 </div>
-                <div class="product-card">
-                    <div class="product-icon"><i class="fas fa-laptop-code"></i></div>
-                    <h3 data-tr="Web Uygulamaları" data-en="Web Applications">Web Uygulamaları</h3>
-                    <p data-tr="Modern web teknolojileri ile ölçeklenebilir web uygulamaları ve SaaS platformları." data-en="Scalable web applications and SaaS platforms with modern web technologies.">Modern web teknolojileri ile ölçeklenebilir web uygulamaları ve SaaS platformları.</p>
-                    <ul class="product-features">
-                        <li data-tr="Full-Stack Web Geliştirme" data-en="Full-Stack Web Development">Full-Stack Web Geliştirme</li>
-                        <li data-tr="React, Vue.js, Angular" data-en="React, Vue.js, Angular">React, Vue.js, Angular</li>
-                        <li data-tr="Node.js & Microservices" data-en="Node.js & Microservices">Node.js & Microservices</li>
+                <div class="card">
+                    <div class="icon-box"><i class="fa-solid fa-code-branch"></i></div>
+                    <h3>Özel Yazılım Geliştirme</h3>
+                    <p>Paket programların sınırlarına takılmayın. İş akışınıza %100 uyumlu, Python, Go ve Rust tabanlı
+                        yüksek performanslı sistemler.</p>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check"></i> Mikroservis Mimarisi</li>
+                        <li><i class="fa-solid fa-check"></i> Yüksek Trafik Yönetimi</li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="hakkimizda" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</h2>
-                    <p data-tr="ANTA BİLİŞİM AŞ, 2025 yılında kurulmuş, SaaS (Hizmet Olarak Yazılım) ürünleriyle şirketlerin, hizmet sektörlerinin ve son kullanıcıların hayatını kolaylaştırmayı hedefleyen bir teknoloji girişimidir. Yenilikçi bakış açımız ve teknolojiye olan tutkumuzla, karmaşık problemlere basit, etkili ve kullanıcı dostu çözümler sunuyoruz." data-en="ANTA BİLİŞİM AŞ is a technology startup established in 2025 with the aim of simplifying the lives of companies, service sectors, and end-users with its SaaS (Software as a Service) products. With our innovative perspective and passion for technology, we offer simple, effective, and user-friendly solutions to complex problems.">ANTA BİLİŞİM AŞ, 2025 yılında kurulmuş, SaaS (Hizmet Olarak Yazılım) ürünleriyle şirketlerin, hizmet sektörlerinin ve son kullanıcıların hayatını kolaylaştırmayı hedefleyen bir teknoloji girişimidir. Yenilikçi bakış açımız ve teknolojiye olan tutkumuzla, karmaşık problemlere basit, etkili ve kullanıcı dostu çözümler sunuyoruz.</p>
-
-                    <h3 data-tr="Girişimimiz" data-en="Our Venture">Girişimimiz</h3>
-                    <p data-tr="Girişimimiz, teknoloji ve inovasyonun merkezi olan İstinye Garage tarafından desteklenmektedir. Bu stratejik ortaklık, vizyonumuzu daha ileriye taşımamıza ve global ölçekte rekabet eden ürünler geliştirmemize olanak tanımaktadır." data-en="Our venture is supported by İstinye Garage, a center for technology and innovation. This strategic partnership allows us to advance our vision and develop globally competitive products.">Girişimimiz, teknoloji ve inovasyonun merkezi olan İstinye Garage tarafından desteklenmektedir. Bu stratejik ortaklık, vizyonumuzu daha ileriye taşımamıza ve global ölçekte rekabet eden ürünler geliştirmemize olanak tanımaktadır.</p>
-                    
-                   
-                </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Team Working">
+                <div class="card highlight-card">
+                    <div class="icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h3>LegalTech (Lextum)</h3>
+                    <p>Amiral gemimiz Lextum.ai ile hukuk departmanları için dilekçe oluşturma, içtihat tarama ve dava
+                        yönetim süreçlerini otomatikleştiriyoruz.</p>
+                    <a href="https://lextum.ai" class="text-link">Lextum.ai'yi İncele &rarr;</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="iletisim" class="contact-section">
+    <section id="comparison" class="section">
         <div class="container">
-            <h2 class="section-title" data-tr="İletişim" data-en="Contact">İletişim</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3 data-tr="İletişim Bilgileri" data-en="Contact Information">İletişim Bilgileri</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4 data-tr="Adres" data-en="Address">Adres</h4>
-                            <span data-tr="Ayazağa Mahallesi Kemerburgaz Caddesi Vadi İstanbul Park 7A Blok No:7B İç Kapı No:4 Sarıyer/İstanbul" data-en="Ayazağa Mahallesi Kemerburgaz Caddesi Vadi İstanbul Park 7A Blok No:7B İç Kapı No:4 Sarıyer/İstanbul">Ayazağa Mahallesi Kemerburgaz Caddesi Vadi İstanbul Park 7A Blok No:7B İç Kapı No:4 Sarıyer/İstanbul</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4 data-tr="E-posta" data-en="Email">E-posta</h4>
-                            <p>info@antabilisim.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4 data-tr="Çalışma Saatleri" data-en="Working Hours">Çalışma Saatleri</h4>
-                            <p data-tr="Pazartesi - Cuma: 09:00 - 18:00" data-en="Monday - Friday: 09:00 - 18:00">Pazartesi - Cuma: 09:00 - 18:00</p>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <h2>Neden Anta Bilişim?</h2>
+                <p>Geleneksel ajanslar ile mühendislik odaklı yaklaşımımız arasındaki fark.</p>
+            </div>
+            <div class="table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Özellikler</th>
+                            <th class="negative">Geleneksel Yazılım Firmaları</th>
+                            <th class="positive">Anta Bilişim & Lextum Ekosistemi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Teknoloji Altyapısı</strong></td>
+                            <td>Eski Nesil (PHP, Monolitik)</td>
+                            <td><strong>Modern Stack (Python, AI, Cloud-Native)</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Yapay Zeka Entegrasyonu</strong></td>
+                            <td>Yok veya Temel Chatbot</td>
+                            <td><strong>Derin Öğrenme, RAG, Özel LLM</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Veri Güvenliği</strong></td>
+                            <td>Standart SSL</td>
+                            <td><strong>Enterprise Grade (KVKK/GDPR, Encryption)</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Geliştirme Süreci</strong></td>
+                            <td>Şelale (Waterfall) / Yavaş</td>
+                            <td><strong>Agile / Sprint Bazlı / Şeffaf</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Destek</strong></td>
+                            <td>Mesai Saatlerinde</td>
+                            <td><strong>7/24 Sistem İzleme & Hızlı Yanıt</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Çalışma Metodolojimiz</h2>
+                <p>Fikirden ürüne giden yolculukta 4 adımlı hassas süreç yönetimi.</p>
+            </div>
+            <div class="timeline">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Analiz & Strateji</h3>
+                    <p>İhtiyaçlarınızı dinliyor, teknik gereksinimleri ve proje yol haritasını (roadmap) çıkarıyoruz.
+                    </p>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name" data-tr="Ad Soyad" data-en="Full Name">Ad Soyad</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" data-tr="E-posta" data-en="Email">E-posta</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject" data-tr="Konu" data-en="Subject">Konu</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" data-tr="Mesaj" data-en="Message">Mesaj</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn" data-tr="Gönder" data-en="Send">Gönder</button>
-                    </form>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>UX/UI & Mimari</h3>
+                    <p>Veritabanı şemalarından arayüz tasarımlarına kadar sistemin iskeletini oluşturuyoruz.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Geliştirme (Sprint)</h3>
+                    <p>2 haftalık periyotlarla çalışan kod teslimi yapıyor, sürekli geri bildirim alıyoruz.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <h3>Test & Canlı</h3>
+                    <p>Yük testleri, güvenlik taramaları ve deployment. Sonrasında bakım ve optimizasyon.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>ANTA BİLİŞİM AŞ</h3>
-                    <p data-tr="Teknoloji ile geleceği birlikte inşa ediyoruz." data-en="Together, we build the future with technology.">Teknoloji ile geleceği birlikte inşa ediyoruz.</p>
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="logo">ANTA<span>BİLİŞİM</span></div>
+                <p class="company-desc">
+                    Bilişim Vadisi Teknokent bünyesinde faaliyet gösteren, Lextum.ai markasının geliştiricisi ve
+                    teknoloji sağlayıcısıyız.
+                </p>
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            <strong>İstinye Garage Incubation Hub</strong><br>
+                            Vadi İstanbul Park 7A Blok No:7B, Sarıyer / İstanbul
+                        </span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0212 909 20 11</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@lextum.ai</span>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h4 data-tr="Hızlı Erişim" data-en="Quick Links">Hızlı Erişim</h4>
+            </div>
+            <div class="footer-right">
+                <div class="legal-box">
+                    <h4>Kurumsal Künye</h4>
                     <ul>
-                        <li><a href="#anasayfa" data-tr="Anasayfa" data-en="Home">Anasayfa</a></li>
-                        <li><a href="#icerik" data-tr="İçerik" data-en="Content">İçerik</a></li>
-                        <li><a href="#urunler" data-tr="Ürünlerimiz" data-en="Our Products">Ürünlerimiz</a></li>
-                        <li><a href="#hakkimizda" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</a></li>
-                        <li><a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+                        <li><strong>Unvan:</strong> ANTA BİLİŞİM A.Ş.</li>
+                        <li><strong>Vergi D.:</strong> Maslak V.D.</li>
+                        <li><strong>Vergi No:</strong> 0701212378</li>
+                        <li><strong>Mersis:</strong> 0070121237800001</li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4 data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 ANTA BİLİŞİM AŞ. <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
-            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Anta Bilişim A.Ş. | <a href="https://lextum.ai">Lextum AI</a> bir Anta Bilişim markasıdır.
+            </p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
